@@ -1,0 +1,31 @@
+# Python Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# 🔑 Secrets
+.env
+
+# Large datasets and media files
+*.mp4
+*.avi
+*.mov
+*.zip
+*.tar
+*.gz
+*.part*
+
+# Model Weights (CRITICAL to ignore to keep repo clean)
+*.pth
+*.hdf5
+*.pb
+
+# Logs
+*.log
+ppg_preprocessed/
+ppg_download_temp/
+ppg_preprocessed/
