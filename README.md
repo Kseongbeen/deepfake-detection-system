@@ -4,10 +4,10 @@
 (대회 링크: https://dacon.io/competitions/official/235655/overview/)
 
 ## 📂 파일 구성 및 역할
-* [inference_dacon_data.py](file:///c:/Users/5174k/Code/202210822/DeepFakeProject_StudyPlus/inference_dacon_data.py): 최종 추론을 위한 메인 실행 파일 (Leaderboard 이미지 -> 모델 임베딩 -> SVM 분류 -> submission.csv 생성)
-* [crop_face_dacon.py](file:///c:/Users/5174k/Code/202210822/DeepFakeProject_StudyPlus/crop_face_dacon.py): MTCNN 그래프(`mtcnn.pb`)를 사용하여 입력 이미지에서 고정밀 안면(Face) 영역을 추출하고 정렬하는 전처리 스크립트
-* [data_generator_dacon.py](file:///c:/Users/5174k/Code/202210822/DeepFakeProject_StudyPlus/data_generator_dacon.py): 학습 및 추론 시 대용량 이미지 데이터를 배치 단위로 실시간 증강 및 로드하기 위한 커스텀 DataGenerator
-* [triplet_loss_dacon.py](file:///c:/Users/5174k/Code/202210822/DeepFakeProject_StudyPlus/triplet_loss_dacon.py): TensorFlow 기반의 Semi-hard Triplet Loss (삼중항 손실) 함수 정의 파일
+* [inference_dacon_data.py](<inference_dacon_data.py>): 최종 추론을 위한 메인 실행 파일 (Leaderboard 이미지 -> 모델 임베딩 -> SVM 분류 -> submission.csv 생성)
+* [crop_face_dacon.py](<crop_face_dacon.py>): MTCNN 그래프(`mtcnn.pb`)를 사용하여 입력 이미지에서 고정밀 안면(Face) 영역을 추출하고 정렬하는 전처리 스크립트
+* [data_generator_dacon.py](<data_generator_dacon.py>): 학습 및 추론 시 대용량 이미지 데이터를 배치 단위로 실시간 증강 및 로드하기 위한 커스텀 DataGenerator
+* [triplet_loss_dacon.py](<triplet_loss_dacon.py>): TensorFlow 기반의 Semi-hard Triplet Loss (삼중항 손실) 함수 정의 파일
 
 ## 📂 필수 리소스 구성
 추론 및 학습 코드를 실행하기 위해서는 아래 리소스 파일이 완비되어 있어야 합니다.
